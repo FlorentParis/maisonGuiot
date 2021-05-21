@@ -1,0 +1,298 @@
+[
+    {
+        "name": "ABRICOT",
+        "src": "assets/img/tradi/abricot.png",
+        "desc": "Retrouvez la gourmandise de l'abricot dans ce sirop aux notes à la fois douces et acidulées.",
+        "price": 3.49,
+        "Lprice": 4.99,
+        "quantitée": 0
+    },
+    {
+        "name": "ANANAS",
+        "src": "assets/img/tradi/ananas.png",
+        "desc": "Originaire d’Amérique centrale, ce fruit hérissé porte le nom de « nana », qui signifie parfum. Ce magnifique fruit tropical est très apprécié. Non seulement son goût est délicieux mais il est également bon pour la santé car il est extrêmement riche en vitamines. Essayez l’exotique et juteux sirop d’Ananas La Maison GUIOT !",
+        "price": 3.20,
+        "Lprice": 4.57,
+        "quantitée": 0
+    },
+    {
+        "name": "ANIS",
+        "src": "assets/img/tradi/anis.png",
+        "desc": "L'anis est une plante originaire de la région méditerranéenne, reconnaissable à son doux parfum. Vous retrouverez toute la puissance de l'Anis dans ce sirop traditionnel sans colorant.",
+        "price": 3.11,
+        "Lprice": 4.44,
+        "quantitée": 0
+    },
+    {
+        "name": "BANANE KIWI",
+        "src": "assets/img/tradi/banane-kiwi.png",
+        "desc": "Un subtil dosage des deux fruits: le kiwi en note d'attaque, la banane prend le relais par sa longueur en bouche.",
+        "price": 3.21,
+        "Lprice": 4.58,
+        "quantitée": 0
+    },
+    {
+        "name": "CARAMEL",
+        "src": "assets/img/tradi/caramel.png",
+        "desc": "Au goût doux et prononcé à la fois, la saveur Caramel est l’une des préférées des gourmands ! Parce qu’elle se marie parfaitement avec d’autres saveurs délicieuses telles que les saveurs Chocolat ou Vanille, mais aussi avec des saveurs fruitées et mêmes fleuries, elle permet d’apporter une note réconfortante de bonbon à toutes vos créations.",
+        "price": 3.47,
+        "Lprice": 4.96,
+        "quantitée": 0
+    },
+    {
+        "name": "CASSIS",
+        "src": "assets/img/tradi/cassis.png",
+        "desc": "Avec un goût authentique, le sirop de Cassis La Maison GUIOT vous permet de créer des boissons originales, à base de jus de cranberry ou de thé aromatisé par exemple.",
+        "price": 3.21,
+        "Lprice": 4.58,
+        "quantitée": 0
+    },
+    {
+        "name": "CERISE GRIOTE",
+        "src": "assets/img/tradi/cerise.png",
+        "desc": "Retrouvez le véritable goût et la fraicheur de la cerise mûre dans le sirop de Cerise griotte La Maison GUIOT. Mélangez avec du cola, c’est remarquable !",
+        "price": 3.40,
+        "Lprice": 4.86,
+        "quantitée": 0
+    },
+    {
+        "name": "CITRON JAUNE DE SICILE",
+        "src": "assets/img/tradi/citronSicile.png",
+        "desc": "Sa chair juteuse, sa saveur qui oscille entre acidité et amertume, et sa belle couleur jaune doré font du citron un fruit incontournable de l’été. Doté d’un incroyable pouvoir désaltérant, l’origine géographique de ce citron lui confère une douceur surprenante qui accompagnera les longues et chaudes journées d’été. Il relèvera parfaitement limonades ou autres thés glacés pour des boissons fraîches et idéales à partager entre amis ou en famille.",
+        "price": 3.39,
+        "Lprice": 4.84,
+        "quantitée": 0
+    },
+    {
+        "name": "CITRON MANDARINE",
+        "src": "assets/img/tradi/citronMandarine.png",
+        "desc": "Ces deux agrumes sont appréciés pour leur richesse gustative et leurs jus. Cette délicieuse association apportera fraicheur et originalité à vos boissons.",
+        "price": 4.39,
+        "Lprice": 6.27,
+        "quantitée": 0
+    },
+    {
+        "name": "CITRON VERT",
+        "src": "assets/img/tradi/citronvert.png",
+        "desc": "L’application du sirop de Citron vert La Maison GUIOT est idéale avec les jus de fruit en général. Son fort goût de zeste de citron apporte une touche fraiche et piquante intéressante.",
+        "price": 3.56,
+        "Lprice": 5.08,
+        "quantitée": 0
+    },
+    {
+        "name": "CRAMBERRY MYRTILLE",
+        "src": "assets/img/tradi/cramberry-myrtille.png",
+        "desc": "La sélection subtile de la cranberry et de la myrtille sont réunies dans un sirop unique. Grâce à La Maison GUIOT votre palais sera envahi d'une sensation fruitée et acidulée.",
+        "price": 3.05,
+        "Lprice": 4.35,
+        "quantitée": 0
+    },
+    {
+        "name": "FRAISE",
+        "src": "assets/img/tradi/fraise.png",
+        "desc": "Le sirop de Fraise La Maison Guiot se déguste en toute simplicité dans une limonade, avec de l’eau, ou en smoothie pour encore plus de gourmandise. Il permettra de créer de multiples mélanges pour des instants de partage et de convivialité.",
+        "price": 3.05,
+        "Lprice": 4.35,
+        "quantitée": 0
+    },
+    {
+        "name": "FRAISE DES BOIS",
+        "src": "assets/img/tradi/fraiseDesBois.png",
+        "desc": "Le sirop de Fraise des Bois La Maison GUIOT a un goût unique très parfumé et particulièrement fidèle au fruit. Dégustez-le avec une limonade, du jus de citron et des glaçons.",
+        "price": 3.39,
+        "Lprice": 4.84,
+        "quantitée": 0
+    },
+    {
+        "name": "FRAISE FRAMBOISE",
+        "src": "assets/img/tradi/fraise-framboise.png",
+        "desc": "Savourez les deux fruits 'tradition' par excellence dans ce sirop unique de Fraise Framboise au goût intense. Ces véritables friandises du verger raviront les papilles des plus gourmands. La touche printanière du sirop de Fraise Framboise la Maison GUIOT, a l’avantage de s’appliquer à un très large choix de boissons.",
+        "price": 3.05,
+        "Lprice": 4.35,
+        "quantitée": 0
+    },
+    {
+        "name": "FRAMBOISE",
+        "src": "assets/img/tradi/framboise.png",
+        "desc": "La framboise, un grand classique des fruits rouges ! Le sirop Framboise de La Maison Guiot restitue le vrai goût de la framboise fraichement cueillie et se prête à de multiples applications : en limonade, avec de l'eau plate ou gazeuse et même en thé glacé.",
+        "price": 3.05,
+        "Lprice": 4.35,
+        "quantitée": 0
+    },
+    {
+        "name": "FRAMBOISE PASSION",
+        "src": "assets/img/tradi/framboise-passion.png",
+        "desc": "La valeur sûre du fruit rouge mariée à l'exotisme du fruit de la passion donne à ce sirop bi-goût une saveur douce et ronde qui ravira les papilles des petits, comme des grands.",
+        "price": 3.45,
+        "Lprice": 4.93,
+        "quantitée": 0
+    },
+    {
+        "name": "FRUITS DE LA PASSION",
+        "src": "assets/img/tradi/fruitsDeLaPassion.png",
+        "desc": "Avec un vrai goût aigre-doux, le sirop de Fruit de la Passion La Maison GUIOT relève particulièrement les autres saveurs exotiques comme la mangue. Dégustez-le dans un thé glacé avec des rondelles de citron et faites voyager vos papilles !",
+        "price": 3.05,
+        "Lprice": 4.35,
+        "quantitée": 0
+    },
+    {
+        "name": "FRUITS EXOTIQUES",
+        "src": "assets/img/tradi/fruits-exotiques.png",
+        "desc": "Le sirop de Fruits Exotiques La Maison Guiot allient la douceur de la mangue au fruit de la passion et vous invite à l'exotisme. Dégustez-le bien frais avec des tranches de fruits et faites voyager vos papilles !",
+        "price": 3.61,
+        "Lprice": 5.15,
+        "quantitée": 0
+    },
+    {
+        "name": "FRUITS ROUGES",
+        "src": "assets/img/tradi/fraiseDesBois.png",
+        "desc": "L'intensité des fruits rouges assure une explosion de saveurs. Ce sirop est idéal pour arômatiser vos thés glacés !",
+        "price": 3.70,
+        "Lprice": 5.29,
+        "quantitée": 0
+    },
+    {
+        "name": "GRENADINE",
+        "src": "assets/img/tradi/grenadine.png",
+        "desc": "Incontournable, le sirop de Grenadine est très largement utilisé en limonade, avec des jus ou boissons aromatisées comme l’orange. Le goût doux et vanillé du sirop de Grenadine La Maison GUIOT offrira une véritable sensation de fraicheur !",
+        "price": 2.59,
+        "Lprice": 3.70,
+        "quantitée": 0
+    },
+    {
+        "name": "GROSEILLE FRAMBOISE",
+        "src": "assets/img/tradi/groseille-framboise.png",
+        "desc": "Savourez l'alliance étonnante et savoureuse entre l'acidité de la groseille et la douceur de la framboise, dans un sirop à la gourmandise et au goût uniques pour un grand nombre d’applications de boissons.",
+        "price": 3.40,
+        "Lprice": 4.87,
+        "quantitée": 0
+    },
+    {
+        "name": "KIWI",
+        "src": "assets/img/tradi/kiwi.png",
+        "desc": "Le sirop de Kiwi La Maison GUIOT, suivant son utilisation, varie d’un goût de fruit frais à un goût de tarte d’antan. Il se mélange très bien avec d'autres sirops de fruits comme la fraise-framboise ou le melon, cela donne des mélanges étonnants !",
+        "price": 3.05,
+        "Lprice": 4.35,
+        "quantitée": 0
+    },
+    {
+        "name": "MANGUE",
+        "src": "assets/img/tradi/mangue.png",
+        "desc": "Ce sirop révèle en bouche un concentré de saveurs intenses et retranscrit à merveille la gourmandise de la mangue. En application limonade fraiche, le sirop de Mangue ravira tous les gourmands par son côté convivial et son pouvoir désaltérant !",
+        "price": 3.23,
+        "Lprice": 4.61,
+        "quantitée": 0
+    },
+    {
+        "name": "MELON",
+        "src": "assets/img/tradi/melon.png",
+        "desc": "Le sirop de Melon La Maison GUIOT est l’un des parfums que l’on aime particulièrement avec des fraises fraîches et un yaourt pour obtenir un véritable smoothie. C’est fabuleux !",
+        "price": 3.05,
+        "Lprice": 4.35,
+        "quantitée": 0
+    },
+    {
+        "name": "MENTHE GLACIALE",
+        "src": "assets/img/tradi/mentheGlaciale.png",
+        "desc": "Le sirop de Menthe Glaciale La Maison GUIOT est idéal pour donner un goût ultra frais à plusieurs boissons, en particulier lorsqu'il est associé à des parfums de chocolat. Avec sa promesse de rafraîchissement inégalée, le sirop de Menthe Glaciale La Maison GUIOT s’applique à une multitude de boissons, des plus simples aux plus élaborées.",
+        "price": 3.05,
+        "Lprice": 4.35,
+        "quantitée": 0
+    },
+    {
+        "name": "MENTHE VERTE",
+        "src": "assets/img/tradi/mentheVerte.png",
+        "desc": "Le sirop de Menthe Verte La Maison GUIOT a de multiples possibilités. Il donne un goût frais de menthe poivrée et une couleur verte à toutes vos boissons. Mélangé avec un jus d’agrumes, il peut renforcer l’effet 'fraîcheur''.",
+        "price": 1.81,
+        "Lprice": 2.59,
+        "quantitée": 0
+    },
+    {
+        "name": "MIRABELLE",
+        "src": "assets/img/tradi/mirabelle.png",
+        "desc": "Avec le sirop de Mirabelle La Maison GUIOT, laissez-vous tenter par la gourmandise veloutée de la mirabelle en rafraîchissement ou en laitage. Les enfants, dégustez ce sirop dans vos chocolats chauds, c'est un délice ! Et pour les grands, avec une bière blonde ou une bière blanche !",
+        "price": 3.05,
+        "Lprice": 4.35,
+        "quantitée": 0
+    },
+    {
+        "name": "MURE CASSIS",
+        "src": "assets/img/tradi/mure-cassis.png",
+        "desc": "Retrouvez toute la gourmandise de la mûre et du cassis réunis dans le sirop La Maison Guiot Mûre Cassis, au goût authentique. Idéal avec un jus de cranberry pour une boisson très fruitée.",
+        "price": 3.05,
+        "Lprice": 4.35,
+        "quantitée": 0
+    },
+    {
+        "name": "ORANGE SANGUINE",
+        "src": "assets/img/tradi/orangeSanguine.png",
+        "desc": "Retrouvez la puissance de l'orange sanguine avec le Sirop d'Orange Sanguine La Maison Guiot. Avec de l'eau plate, de l'eau gazeuse ou même en limonade, ce sirop sera l'allié parfait de vos pauses rafraîchissantes !",
+        "price": 2.49,
+        "Lprice": 3.56,
+        "quantitée": 0
+    },
+    {
+        "name": "ORGEAT",
+        "src": "assets/img/tradi/orgeat.png",
+        "desc": "Fruits de l'amandier, les amandes douces ont un goût délicat et très légèrement sucré. Elles sont fréquemment utilisées en confiserie, pâtisserie et dans la préparation de la pâte d'amande, connue pour sa douceur en Europe et en Méditerranée. Retrouvez le goût véritable de l'amande avec le sirop d’Orgeat La Maison GUIOT.",
+        "price": 3.05,
+        "Lprice": 4.35,
+        "quantitée": 0
+    },
+    {
+        "name": "PAMPLEMOUSSE ROSE",
+        "src": "assets/img/tradi/pamplemousseRose.png",
+        "desc": "Le sirop de Pamplemousse rose La Maison GUIOT, relèvera particulièrement le goût des jus de fruits. Une fois dégusté, vous ne pourrez plus vous en passer et vous l’utiliserez dans bon nombre de recettes !",
+        "price": 3.47,
+        "Lprice": 4.96,
+        "quantitée": 0
+    },
+    {
+        "name": "PASTEQUE",
+        "src": "assets/img/tradi/pasteque.png",
+        "desc": "Idéal pour de déclicieuses recettes à réaliser soi-même. En limonade, en thé glacé ou en sirop à l'eau, le sirop de pastèque La Maison Guiot se décline à l'envie pour twister toutes les boissons de l'été ! Un accompagnement parfait pour vos pique-niques gourmands.",
+        "price": 2.99,
+        "Lprice": 4.27,
+        "quantitée": 0
+    },
+    {
+        "name": "PECHE ABRICOT",
+        "src": "assets/img/tradi/peche-abricot.png",
+        "desc": "Réalisez un véritable thé glacé en y ajoutant quelques gouttes à votre thé. Idéal pour rafraichir vos après-midi d'été !",
+        "price": 3.49,
+        "Lprice": 4.99,
+        "quantitée": 0
+    },
+    {
+        "name": "PECHE BLANCHE",
+        "src": "assets/img/tradi/pecheBlanche.png",
+        "desc": "La pêche blanche a une saveur riche et un parfum aromatique puissant. Rien de tel qu’un jus d’orange au sirop de Pêche blanche La Maison GUIOT par une après-midi d’été !",
+        "price": 3.29,
+        "Lprice": 4.70,
+        "quantitée": 0
+    },
+    {
+        "name": "POIRE",
+        "src": "assets/img/tradi/poire.png",
+        "desc": " Cette touche de fraicheur gourmande s’immiscera harmonieusement dans vos gâteaux, cakes ou fondants. Une boisson délicieusement goûteuse et désaltérante, à savourer en famille ou entre amis, pour des moments de plaisir partagé et qui ravira grands et petits !",
+        "price": 3.47,
+        "Lprice": 4.96,
+        "quantitée": 0
+    },
+    {
+        "name": "POMME CASSIS",
+        "src": "assets/img/tradi/pomme-cassis.png",
+        "desc": "Retrouvez l’équilibre subtil entre l’amertume du cassis et la douceur sucrée des pommes. Cette association donnera un éclat de gourmandise à vos boissons. Un régal en limonade ou en l’associant à une salade de fruits, un fromage blanc ou un yaourt.",
+        "price": 3.05,
+        "Lprice": 4.35,
+        "quantitée": 0
+    },
+    {
+        "name": "VIOLETTE",
+        "src": "assets/img/tradi/violette.png",
+        "desc": "Essayez le sirop de Violette La Maison GUIOT et mettez un accent floral à vos boissons ! Essayez le sirop de Violette La Maison GUIOT avec un peu de lait et une glace aux fruits rouges… un délice pour les yeux et les papilles !",
+        "price": 2.90,
+        "Lprice": 4.14,
+        "quantitée": 0
+    }
+]

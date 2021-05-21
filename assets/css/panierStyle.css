@@ -1,0 +1,133 @@
+@import "style.css";
+#headerNav :not(ul li:nth-of-type(4)){
+    border-bottom: none;
+}
+.cartTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+#cartContainer{
+    padding: 30px 90px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    font-family: 'roboto';
+    min-height: 52.8vh;
+}
+#cartContainer #cartRight{
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    font-weight: 500;
+    justify-content: space-between;
+    border: 1px solid var(--grey);
+    padding: 10px;
+}
+#cartContainer #cartRight .btnClassic{
+    width: 100%;
+}
+.blockCart{
+    display: flex;
+    border: 1px solid var(--grey);
+    margin-bottom: 10px
+}
+.blockCart > img{
+    height: 240px;
+    padding:  5px 10px 5px 20px;
+}
+.blockCart .blockRight{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+.blockRight span{
+    font-size: 24px;
+}
+.blockBottom{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.blockBottom .blockPrice div:first-of-type{
+    font-size: 24px;
+}
+.blockBottom .blockPrice div:last-of-type{
+    font-size: 18px;
+}
+.cartButton{
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.5s;
+}
+.cartButton .proQuantBlock{
+    background-color: var(--green);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    right: -40px;
+    z-index: 2;
+}
+.cartButton .left{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0px;
+    background-color: var(--green2);
+    border-radius: 5px 0 0 5px;
+    transition: all 0.5s;
+    opacity: 0;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid var(--grey);
+}
+.cartButton .right{
+    width: 40px;
+    height: 37px;
+    position: absolute;
+    right: 0px;
+    background-color: var(--green2);
+    transition: all 0.5s;
+    opacity: 0;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3px;
+}
+.cartButton:hover .proQuantBlock{
+    border-radius: 0 5px 5px 0;
+    transition: all 0.5s;
+}
+.cartButton:hover .left{
+    right: 80px;
+    width: 40px;
+    opacity: 1;
+    transition: all 0.5s;
+}
+.cartButton:hover .right{
+    right: 40px;
+    width: 40px;
+    opacity: 1;
+    transition: all 0.5s;
+}
+.cartButton span{
+    color: #fff;
+    font-weight: 500;
+}
