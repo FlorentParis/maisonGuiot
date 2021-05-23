@@ -49,7 +49,67 @@
         <div id="cartRight">
             <span id="nbrArticle" class="title10">ARTICLES DANS LE PANIER.</span>
             <span id="totalCommande" class="title10">TOTAL DE LA COMMANDE :</span>
-            <button class="btnClassic" type="button"><a href="tradiShop.html">PASSER LA COMMANDE</a></button>
+            <button class="btnClassic" type="button" id="btnCo">PASSER LA COMMANDE</button>
+        </div>
+    </section>
+    <section id="modalContainer">
+        <div id="modal">
+            <div id="modalLeft">
+                <div id="modalLeftElement">
+                    <span class="title10">ADRESSE DE LIVRAISON</span>
+                    <form action="" method="post" name="myForm">
+                        <label for="name">PRENOM ET NOM</label>
+                        <input type="text" name="name" id="name">
+                        <div>
+                            <div>
+                                <label for="numVoie">N° DE VOIE</label>
+                                <input type="text" name="numVoie" id="numVoie">
+                            </div>
+                            <div>
+                                <label for="typeVoie">TYPE DE VOIE</label>
+                                <input type="text" name="typeVoie" id="typeVoie">
+                            </div>
+                        </div>
+                        <label for="voie">NOM DE LA VOIE</label>
+                        <input type="text" name="voie" id="voie">
+                        <div>
+                            <div>
+                                <label for="cp">CODE POSTAL</label>
+                                <input type="number" name="cp" id="cp">
+                            </div>
+                            <div>
+                                <label for="city">VILLE</label>
+                                <input type="text" name="city" id="city">
+                            </div>
+                        </div>
+                        <label for="tel">N° DE TELEPHONE</label>
+                        <input type="tel" name="tel" id="tel">
+                        <label for="infos">INFORMATIONS COMPLEMENTAIRES</label>
+                        <textarea name="infos" id="infos" cols="30" rows="10"></textarea>
+                    </form>
+                </div>
+            </div>
+            <div id="modalRight">
+                <div id="modalRightElement">
+                    <div>
+                        <span class="title10">RECAPITULATIF</span>
+                        <span id="cross">✖</span>
+                    </div>
+                    <span>NOMBRE D'ARTICLES :</span>
+                    <label for="choiceLivraison">MODE DE LIVRAISON :</label>
+                    <!-- <input list="livraisons" name="choiceLivraison" id="choiceLivraison"> -->
+                    <select id="livraisons">
+                        <option value="">--Choisissez un mode de livraison--</option>
+                        <option value="Stand">Standard</option>
+                        <option value="Prio">Prioritaire</option>
+                        <option value="1j">Sous 1 jour ouvré</option>
+                    </select>
+                    <span id="recapArt">ARTICLES : </span>
+                    <span id="recapLiv">LIVRAISON : </span>
+                    <span id="repcapTotal">MONTANT TOTAL : </span>
+                    <button class="btnClassic" type="button" id="btnFinal">VALIDER ET PAYER</button>
+                </div>
+            </div>
         </div>
     </section>
     <footer>

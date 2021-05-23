@@ -4,6 +4,9 @@ let cartLeft = document.getElementById('cartLeft');
 let panier = document.querySelector("div#cart");
 let nbrArticle = document.getElementById("nbrArticle");
 let totalCommande = document.getElementById("totalCommande");
+const cross = document.querySelector('#cross');
+const modal = document.querySelector('#modalContainer');
+const btnCo = document.querySelector('#btnCo');
 
 displayNbrCart();
 
@@ -132,3 +135,11 @@ function changementRight(){
     nbrArticle.textContent = resultat + " ARTICLES DANS LE PANIER.";
     totalCommande.textContent = "TOTAL DE LA COMMANDE : " + prixTotal.toFixed(2) + "€";
 }
+
+cross.addEventListener("click", () =>{
+    modal.style.display = "none";
+})
+
+btnCo.addEventListener("click", () =>{
+    modal.style.display = "flex";
+})
