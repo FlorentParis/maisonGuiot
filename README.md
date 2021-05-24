@@ -22,4 +22,4 @@ Je n'ai pas eu de difficulté particuliere durant ce projet, quelques petits blo
 loin que je le voulais dans ce projet, j'aurais vraiment aimé faire un systeme de login (avec les moyens du bord), un formulaire de contact, d'autres pages produits, ...
 Je suis tout de même plutôt satisfait de mon rendu.😄
 
-Voici [le lien vers le site hébergé]().
+Voici [le lien vers le site hébergé](https://maisonguiotproject.netlify.app/index.html).
