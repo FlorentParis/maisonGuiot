@@ -155,4 +155,15 @@ function showProducts(products){
             }
         }
     }
+
+    const burger = document.querySelector('#burger');
+    const panelHeader2 = document.querySelector('#panelHeader2');
+
+    burger.addEventListener("click", () => {
+        if(panelHeader2.style.display == "block"){
+            panelHeader2.style.display = "none";
+        }else{
+            panelHeader2.style.display = "block";
+        }
+    })
 }

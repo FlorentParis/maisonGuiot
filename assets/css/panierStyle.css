@@ -257,3 +257,57 @@ form{
     font-size: 18px;
     cursor: pointer;
 }
+@media (max-width: 850px){
+    .cartTitle{
+        padding-top: 100px;
+    }
+    #cartContainer{
+        grid-template-columns: 1fr;
+        padding: 30px 30px;
+    }
+    .blockCart{
+        width: calc(100vw - 60px);
+    }
+    .blockCart img{
+        height: 260px;
+    }
+    .blockBottom{
+        flex-direction: column;
+    }
+    .blockPrice{
+        align-self: flex-start;
+        padding-bottom: 5px;
+    }
+    #cartContainer #cartRight{
+        height: auto;
+    }
+    #cartContainer #cartRight .btnClassic{
+        margin-top: 5px;
+        height: auto;
+    }
+    #modal{
+        flex-direction: column;
+    }
+    #modalLeft{
+        width: 100%;
+    }
+    #myForm > div{
+        flex-direction: column;
+    }
+    #modalLeftElement > form > div > div:first-child{
+        padding-right: 0;
+    }
+    #modal #modalRight{
+        position: static;
+    }
+    #cross{
+        position: absolute;
+        top: 5px;
+        right: 20px;
+    }
+}
+@media (max-width: 400px){
+    #cartContainer #cartRight .btnClassic{
+        height: auto;
+    }
+}

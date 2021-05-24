@@ -140,6 +140,9 @@ header #headerMain #headerLeft{
 header #headerLeft img{
     height: 18px;
 }
+header #headerLeft2{
+    display: none;
+}
 header #headerMain > img{
     height: 48px;
 }
@@ -406,17 +409,35 @@ footer{
     justify-content: center;
     height: 50px;
 }
-/* HERO */
 @media (max-width: 1320px){
+    img[src = "assets/img/badge.png"]{
+        z-index: 2;
+        height: 15vh;
+        top: 75px;
+        left: 20px;
+    }
     #hero{
         flex-direction: column;
         height: auto;
     }
+    #hero > div{
+        width: auto;
+        height: auto;
+    }
     #hero #heroLeft{
-        transform: translateX(-25px);
+        transform: translateX(-10px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+    #hero #heroLeft img{
+        max-width: 80vw;
+        height: auto;
     }
     #hero #heroRight{
         padding-top: 50px;
+        width: 90vw;
     }
     .shape[src="assets/shape/shapeHero2.svg"]{
         left: 10vw;
@@ -431,9 +452,15 @@ footer{
     #gammes > div:last-of-type > div:last-of-type{
         grid-column: span 2;
     }
+    #hero .btnClassic{
+        margin-top: 10px;
+    }
 }
-/* GAMMES */
 @media (max-width: 760px){
+    #gammes{
+        width: 100vw;
+        overflow: hidden;
+    }
     #gammes > div:last-of-type{
         grid-template-columns: none;
         grid-template-rows: repeat(3, 1fr);
@@ -442,14 +469,110 @@ footer{
         grid-column: auto;
     }
 }
-/* PELEMELE */
 @media (max-width: 1100px){
+    #inspi{
+        width: 100vw;
+        overflow: hidden;
+    }
     #pelemeleContainer{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, 1fr);
         column-gap: 0;
+        gap: 0;
+        padding: 0;
     }
     #pelemeleContainer > div{
         height: 300px;
+        margin: 20px;
+    }
+}
+@media (max-width: 850px){
+    header #headerNav{
+        display: none;
+    }
+    #btnAccount{
+        display: none;
+    }
+    header #headerMain #headerLeft{
+        display: none;
+    }
+    header #headerMain #headerLeft2{
+        display: flex;
+        flex-direction: column;
+        width: 30px;
+        height: 20px;
+        justify-content: space-between;
+        position: absolute;
+        left: 10px;
+    }
+    #burger{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    header #headerMain #headerLeft2 span{
+        height: 2px;
+        width: 100%;
+        display: block;
+        background-color: var(--green);
+    }
+    header #headerMain #headerRight > span {
+        display: none;
+    }
+    header #headerMain #headerRight{
+        right: 10px;
+    }
+    footer, #footerTop{
+        height: auto;
+        align-items: center;
+        text-align: center;
+        overflow-x: hidden;
+    }
+    #footerTop > div:first-child img:first-child{
+        padding-right: 0;
+    }
+    footer #footerTop, footer #footerTop > div:first-of-type{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5px;
+    }
+    footer #footerTop, footer #footerTop > div:last-child{
+        width: 90vw;
+    }
+    footer #footerTop, footer #footerTop > div:last-child ul{
+        width: 70vw;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+    #footerMid{
+        text-align: center;
+        height: 40px;
+        width: 100vw;
+    }
+    #footerBot{
+        height: 30px;
+    }
+    #panelHeader2{
+        display: none;
+        position: fixed;
+        background-color: #fff;
+        z-index: 3;
+        height: 160px;
+        width: 120px;
+        padding: 10px;
+        top: 54px;
+        border: 1px solid var(--green);
+        left: 0;
+    }
+    #panelHeader2 ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100%;
+    }
+    #panelHeader2 a{
+        color: var(--green);
+        text-decoration: none;
     }
 }

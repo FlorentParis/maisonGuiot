@@ -7,6 +7,11 @@ let totalCommande = document.getElementById("totalCommande");
 const cross = document.querySelector('#cross');
 const modal = document.querySelector('#modalContainer');
 const btnCo = document.querySelector('#btnCo');
+const btnFinal = document.querySelector('#btnFinal');
+const livraisons = document.querySelector('#livraisons');
+const recapArt = document.querySelector('#recapArt');
+const repcapTotal = document.querySelector('#repcapTotal');
+let prixLiv = 0;
 
 displayNbrCart();
 
@@ -136,10 +141,85 @@ function changementRight(){
     totalCommande.textContent = "TOTAL DE LA COMMANDE : " + prixTotal.toFixed(2) + "€";
 }
 
+livraisons.addEventListener('change', (e) =>{
+    let choice = e.target.value;
+    const recapLiv = document.querySelector('#recapLiv');
+    if(choice == "Prio"){
+        recapLiv.textContent = "LIVRAISON : 5€";
+        prixLiv = 5;
+    }else if(choice == "Stand"){
+        recapLiv.textContent = "LIVRAISON : 3€";
+        prixLiv = 3;
+    }else if(choice == "1j"){
+        recapLiv.textContent = "LIVRAISON : 7€";
+        prixLiv = 7;
+    }else{
+        console.log("bug");
+    }
+    let resultat = 0;
+    let prixTotal = 0;
+    products.forEach(element => {
+        resultat += parseInt(element["quantitée"]);
+        if(parseInt(element["quantitée"]) !== 0){
+            for(let i = 0; i < element["quantitée"]; i++){
+                prixTotal += element["price"];
+            }
+        }
+    });
+    let total = prixTotal + prixLiv;
+    repcapTotal.textContent = "MONTANT TOTAL : " + total.toFixed(2) + "€";
+})
+
+
+
 cross.addEventListener("click", () =>{
     modal.style.display = "none";
 })
 
 btnCo.addEventListener("click", () =>{
     modal.style.display = "flex";
+    if(prixLiv != 0){
+        let resultat = 0;
+        let prixTotal = 0;
+        products.forEach(element => {
+            resultat += parseInt(element["quantitée"]);
+            if(parseInt(element["quantitée"]) !== 0){
+                for(let i = 0; i < element["quantitée"]; i++){
+                    prixTotal += element["price"];
+                }
+            }
+        });
+        let total = prixTotal + prixLiv;
+        repcapTotal.textContent = "MONTANT TOTAL : " + total.toFixed(2) + "€";
+    }else{
+        let resultat = 0;
+        products.forEach(element => {
+            resultat += parseInt(element["quantitée"]);
+        });
+        recapArt.textContent = "ARTICLES : " + resultat;
+    }
+})
+
+btnFinal.addEventListener("click", () =>{
+    let name = document.querySelector('#name').value;
+    let numVoie = document.querySelector('#numVoie').value;
+    let typeVoie = document.querySelector('#typeVoie').value;
+    let voie = document.querySelector('#voie').value;
+    let cp = document.querySelector('#cp').value;
+    let city = document.querySelector('#city').value;
+    let tel = document.querySelector('#tel').value;
+    let infos = document.querySelector('#infos').value;
+    let livraisons = document.querySelector('#livraisons').value;
+    console.log(name, numVoie, typeVoie, voie, cp, city, tel, infos, livraisons);
+})
+
+const burger = document.querySelector('#burger');
+const panelHeader2 = document.querySelector('#panelHeader2');
+
+burger.addEventListener("click", () => {
+    if(panelHeader2.style.display == "block"){
+        panelHeader2.style.display = "none";
+    }else{
+        panelHeader2.style.display = "block";
+    }
 })
