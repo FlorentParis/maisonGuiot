@@ -547,8 +547,9 @@ footer{
     }
     #footerMid{
         text-align: center;
-        height: 40px;
+        height: auto;
         width: 100vw;
+        padding: 5px 0;
     }
     #footerBot{
         height: 30px;

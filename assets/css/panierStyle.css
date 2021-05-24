@@ -257,7 +257,21 @@ form{
     font-size: 18px;
     cursor: pointer;
 }
-@media (max-width: 850px){
+
+@media (max-width: 1470px){
+    #cartContainer #cartRight{
+        height: 160px;
+    }
+}
+@media (max-width: 1150px){
+    #cartContainer #cartRight{
+        height: 220px;
+    }
+    #cartRight .btnClassic{
+        height: 70px;
+    }
+}
+@media (max-width: 885px){
     .cartTitle{
         padding-top: 100px;
     }
@@ -285,6 +299,9 @@ form{
         margin-top: 5px;
         height: auto;
     }
+    #cartContainer #cartRight{
+        height: auto;
+    }
     #modal{
         flex-direction: column;
     }
@@ -299,6 +316,7 @@ form{
     }
     #modal #modalRight{
         position: static;
+        width: 100%;
     }
     #cross{
         position: absolute;

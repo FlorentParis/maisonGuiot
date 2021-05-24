@@ -211,7 +211,28 @@ btnFinal.addEventListener("click", () =>{
     let infos = document.querySelector('#infos').value;
     let livraisons = document.querySelector('#livraisons').value;
     console.log(name, numVoie, typeVoie, voie, cp, city, tel, infos, livraisons);
-})
+    const commandes = {
+        "name": name,
+        "numVoie": numVoie,
+        "typeVoie": typeVoie,
+        "voie": voie,
+        "cp": cp,
+        "city": city,
+        "tel": tel,
+        "infos": infos,
+        "livraisons": livraisons
+    };
+
+    /* Envoie */
+    fetch("http://unefausseadresse/quinexistepas.dev", {
+	method: "POST",
+	headers: { 
+    'Accept': 'application/json', 
+    'Content-Type': 'application/json' 
+    },
+        body: JSON.stringify(commandes)
+    })
+});
 
 const burger = document.querySelector('#burger');
 const panelHeader2 = document.querySelector('#panelHeader2');
