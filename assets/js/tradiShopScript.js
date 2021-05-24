@@ -7,7 +7,7 @@ container = document.querySelector('.shopContainer');
 let panier = document.querySelector("#cart");
 
 
-var requestURL = 'http://localhost/maisonGuiot/assets/js/products.json';
+var requestURL = './assets/js/products.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
