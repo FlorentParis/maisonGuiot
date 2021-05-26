@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "BlackJack";
+    src: url("black_jack/BLACKJAR.TTF") format("truetype");
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("roboto/Roboto-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("roboto/Roboto-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("roboto/Roboto-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("roboto/Roboto-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("roboto/Roboto-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("roboto/Roboto-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+}
